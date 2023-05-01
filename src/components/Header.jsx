@@ -1,11 +1,11 @@
 import styles from "./Header.module.css";
-import arraia from "../assets/arraia.png";
+import arraias from "../assets/arraias.png";
 export function Header() {
-  console.log(arraia);
+  console.log(arraias);
   return (
     <>
       <header className={styles.header}>
-        <img src={arraia} alt="logotipo" />
+        <img src={arraias} alt="logotipo" />
       </header>
     </>
   );
