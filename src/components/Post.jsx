@@ -25,7 +25,7 @@ export default function Post() {
         </p>
 
         <p>
-          👉 {" "}<a href="">jane.design/doctorcare</a>{" "}
+          👉 <a href="">jane.design/doctorcare</a>{" "}
         </p>
 
         <p>
@@ -33,6 +33,12 @@ export default function Post() {
           <a href="">#rocketseat </a>
         </p>
       </div>
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+
+        <textarea placeholder="Deixe um comentário" />
+        <button type="submit">Publicar</button>
+      </form>
     </article>
   );
 }
